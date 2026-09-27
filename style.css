@@ -1,0 +1,243 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.navbar{
+     display: flex;
+    align-items: center;
+      padding: 14px 30px;
+    justify-content:space-around;
+    padding: 16px 40px;;
+    font-weight: bold;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.navbar img{
+    height: 40px;
+    width: 40px;
+}
+
+
+.navbar-left{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+.logo
+{
+font-size: 24px;
+font-weight: bold;
+}
+ 
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    cursor: pointer;
+
+}
+.button{
+    display: flex;
+}
+.plan-ai{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: solid white 2px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.signin{
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.container{
+    text-align: center;
+    padding: 60px 20px 60px;
+}
+.container-title{
+    font-size: 60px;
+}
+.search-bar {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+.search-bar input {
+   
+ border: none;
+    width: 100%;
+    font-size: 16px;
+    pointer: cursor;
+}
+
+.container-search input:focus {
+    outline: none;
+}
+.ask-ai{
+    border: solid black 2px;
+    border-radius: 20px;
+     cursor: pointer;
+     padding: 5px;
+     width: 100px;
+   cursor: pointer;
+     }
+     .search-btn{
+        background-color: green;
+        padding: 5px;
+        border-radius: 20px;
+        width:100px;
+        cursor: pointer;
+     }
+.banner{
+    width:50%;
+    background-color: aqua;
+    height:400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+}
+.banner img{
+    width:60%;
+    padding:10px;
+    display: block;
+  
+}
+.banner-text{
+    position: relative;
+    }
+ .banner-text h2{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}  
+.banner-text p{
+    font-weight: bold;
+    padding-bottom: 20px;
+} 
+.book{
+    background-color: black;
+    color: white;
+    width:75px;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    font-weight: bold;
+    margin-right: auto;
+    position: relative;
+    cursor: pointer;
+}
+.container-one, .container-two, .container-four, .container-five{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    width: 50%;
+    display:block;
+    padding-bottom: 20px;
+}
+
+
+.container-one__text, .container-two__text{
+    font-size: 20px;
+}
+.container-one__image, .container-two__image, .container-four__image, .container-five__image{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+.course-card{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+    width: 400px;
+    height:400px;
+}
+.course-card img{
+    width: 100%;
+    height: 75%;
+    position: relative;
+    display: inline-block
+}
+.container-three{
+    width:50%;
+    background-color:rgb(248, 245, 245);
+    height:500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+    border: gray;
+    
+}
+.container-three img{
+    width:60%;
+    padding:10px;
+    display: block;
+  
+}
+.container-three__text{
+    position: relative;
+    }
+ .container-three__text h1{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}  
+.container-three__text p{
+    font-weight: bold;
+    padding-bottom: 20px;
+} 
+.donate{
+    background-color: black;
+    color: white;
+    width:75px;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    font-weight: bold;
+    margin-right: auto;
+    position: relative;
+    cursor: pointer;
+
+}
+.footer {
+    padding: 30px;
+    
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+       justify-content: space-around;
+}
+
+.footer__one p {
+    margin: 20px;
+    
+}
+
+
+
